@@ -19,22 +19,22 @@ describe("humanities", () =>{
 
 })
 
-// describe("sciences", () =>{
-//     it ("returns A if the marks is above 70 to 100" ,() =>{
-//         expect(sciences(70)).toBe('A');
-//     })
-//     it ("returns B if the marks is above 60 to 69" ,() =>{
-//         expect(sciences(65)).toBe('B');
-//     })
-//     it ("returns c if the marks is above 50 to 59" ,() =>{
-//         expect(sciences(55)).toBe('C');
-//     })
-//     it ("returns Pass if the marks is above 40 to 49" ,() =>{
-//         expect(sciences(45)).toBe('Pass');
-//     })
-//     it ("returns Sup if the marks is below 40" ,() =>{
-//         expect(sciences(39)).toBe('Sup');
-//     })
+describe("sciences", () =>{
+    it ("returns A if the marks is above 70 to 100" ,() =>{
+        expect(sciences(70)).toBe('A');
+    })
+    it ("returns B if the marks is above 60 to 69" ,() =>{
+        expect(sciences(65)).toBe('B');
+    })
+    it ("returns c if the marks is above 50 to 59" ,() =>{
+        expect(sciences(55)).toBe('C');
+    })
+    it ("returns Pass if the marks is above 40 to 49" ,() =>{
+        expect(sciences(45)).toBe('Pass');
+    })
+    it ("returns Sup if the marks is below 40" ,() =>{
+        expect(sciences(39)).toBe('Sup');
+    })
 
 
 })
