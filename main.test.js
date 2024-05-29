@@ -1,23 +1,23 @@
 import {humanities,sciences,languages,calculateGradeAverage} from "./main";
-// describe("humanities", () =>{
-//     it ("returns A if the marks is above 80 to 100" ,() =>{
-//         expect(humanities(80)).toBe('A');
-//     })
-//     it ("returns B if the marks is above 70 to 79" ,() =>{
-//         expect(humanities(75)).toBe('B');
-//     })
-//     it ("returns c if the marks is above 60 to 69" ,() =>{
-//         expect(humanities(65)).toBe('C');
-//     })
-//     it ("returns Pass if the marks is above 50 to 59" ,() =>{
-//         expect(humanities(55)).toBe('Pass');
-//     })
-//     it ("returns Sup if the marks is below 50" ,() =>{
-//         expect(humanities(49)).toBe('Sup');
-//     })
+describe("humanities", () =>{
+    it ("returns A if the marks is above 80 to 100" ,() =>{
+        expect(humanities(80)).toBe('A');
+    })
+    it ("returns B if the marks is above 70 to 79" ,() =>{
+        expect(humanities(75)).toBe('B');
+    })
+    it ("returns c if the marks is above 60 to 69" ,() =>{
+        expect(humanities(65)).toBe('C');
+    })
+    it ("returns Pass if the marks is above 50 to 59" ,() =>{
+        expect(humanities(55)).toBe('Pass');
+    })
+    it ("returns Sup if the marks is below 50" ,() =>{
+        expect(humanities(49)).toBe('Sup');
+    })
 
 
-// })
+})
 
 // describe("sciences", () =>{
 //     it ("returns A if the marks is above 70 to 100" ,() =>{
