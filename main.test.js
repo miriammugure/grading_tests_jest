@@ -38,22 +38,22 @@ describe("sciences", () =>{
 
 
 })
-// describe("languages", () =>{
-//     it ("returns A if the marks is above75 to 100" ,() =>{
-//         expect(languages(79)).toBe('A');
-//     })
-//     it ("returns B if the marks is above 65 to 74" ,() =>{
-//         expect(languages(70)).toBe('B');
-//     })
-//     it ("returns c if the marks is above 55 to 64" ,() =>{
-//         expect(languages(63)).toBe('C');
-//     })
-//     it ("returns Pass if the marks is above 45 to 55" ,() =>{
-//         expect(languages(53)).toBe('Pass');
-//     })
-//     it ("returns Sup if the marks is below 45" ,() =>{
-//         expect(languages(43)).toBe('Sup');
-//     })
+describe("languages", () =>{
+    it ("returns A if the marks is above75 to 100" ,() =>{
+        expect(languages(79)).toBe('A');
+    })
+    it ("returns B if the marks is above 65 to 74" ,() =>{
+        expect(languages(70)).toBe('B');
+    })
+    it ("returns c if the marks is above 55 to 64" ,() =>{
+        expect(languages(63)).toBe('C');
+    })
+    it ("returns Pass if the marks is above 45 to 55" ,() =>{
+        expect(languages(53)).toBe('Pass');
+    })
+    it ("returns Sup if the marks is below 45" ,() =>{
+        expect(languages(43)).toBe('Sup');
+    })
 
     describe("calculateGradeAverage", () =>{
         it ("returns A if the marks is above 80 to 100" ,() =>{
